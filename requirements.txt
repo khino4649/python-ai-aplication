@@ -1,0 +1,9 @@
+streamlit>=1.40
+google-genai>=1.0
+python-dotenv>=1.0
+
+# Streamlit の依存ライブラリ。最新版のバイナリは Windows の Smart App Control に
+# ブロックされるため、ブロックされないことを確認済みのバージョンに固定している。
+numpy==2.4.1
+pandas==3.0.1
+pyarrow==24.0.0
